@@ -4,8 +4,11 @@ body {
     font-family: AkayaKanadaka-Regular, Arial, Helvetica, sans-serif;
 }
 
-img {
+img#logo {
     width: 200px;
+}
+.t-50 {
+    width: 50%;
 }
 
 header {
