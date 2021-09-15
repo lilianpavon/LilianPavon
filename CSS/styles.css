@@ -55,3 +55,36 @@ src: url('../Fonts/AkayaKanadaka-Regular.ttf')
 font-family: HarryPotter;
 src: url('../Fonts/HARRYP__.TTF')
 }
+@font-face {
+    font-family: Glory;
+    src: url('../Fonts/Glory-VariableFont_wght.ttf')
+    }
+ @font-face {
+    font-family: GloryCursiva;
+    src: url('../Fonts/Glory-Italic-VariableFont_wght.ttf')
+    }
+
+table, th, td {
+    border: 1px solid cornsilk;
+    font-size: larger;
+    text-align: center;
+    padding: 15px;
+  }
+  table {
+    width: 100%;
+  }
+  
+  th {
+    height: 70px;
+  }
+  th {
+      font-family: HarryPotter;
+  }
+
+td {
+    font-family: Glory;
+}
+th {
+    background-color:blanchedalmond;
+    color: black;
+  }
