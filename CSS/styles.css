@@ -36,16 +36,22 @@ ul {
     float: right;
 }
 a {
+    font-family: HarryPotter;
     color: white;
     /* modificamos el decorado de un texto, si tiene el valor none, le estamos indicando que no tendra decoraciones */
     text-decoration: none;
     /* le agregamos un margen a la izquiersa de 10 pixeles */
     margin-left: 10px;
 }
+
 @font-face {
     /* font-family es la propiedad que le asigna un nombre a la nueva fuente.
     El nombre es a gusto de cada quien. Por convencion, se pone el nombre 
     real, en este caso, AkayaKanadaka */
 font-family: Akaya AkayaKanadaka-Regular;
 src: url('../Fonts/AkayaKanadaka-Regular.ttf')
+}
+@font-face {
+font-family: HarryPotter;
+src: url('../Fonts/HARRYP__.TTF')
 }
