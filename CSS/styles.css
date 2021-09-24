@@ -1,3 +1,26 @@
+@font-face {
+    /* font-family es la propiedad que le asigna un nombre a la nueva fuente.
+    El nombre es a gusto de cada quien. Por convencion, se pone el nombre 
+    real, en este caso, AkayaKanadaka */
+    font-family: Akaya AkayaKanadaka-Regular;
+    /* La propiedad src define la ubicacion de la fuente a utilizar. Sea
+       cual sea que utilices, prueba primero el archivo que tenga en su
+       nombre Regular */
+       src: url('../Fonts/AkayaKanadaka-Regular.ttf')
+}
+@font-face {
+    font-family: HarryPotter;
+    src: url('../Fonts/HARRYP__.TTF')
+}
+@font-face {
+    font-family: Glory;
+    src: url('../Fonts/Glory-VariableFont_wght.ttf')
+    }
+ @font-face {
+    font-family: GloryCursiva;
+    src: url('../Fonts/Glory-Italic-VariableFont_wght.ttf')
+    }
+
 body {
     background-color: black;
     color:blanchedalmond;
@@ -34,6 +57,8 @@ ul {
 
     /* Le indicamos que se posicione a la derecha, equivalente al alinear a la derecha de microsoft word o similares: ; */
     float: right;
+
+    font-family: HarryPotter;
 }
 a {
     font-family: HarryPotter;
@@ -44,25 +69,11 @@ a {
     margin-left: 10px;
 }
 
-@font-face {
-    /* font-family es la propiedad que le asigna un nombre a la nueva fuente.
-    El nombre es a gusto de cada quien. Por convencion, se pone el nombre 
-    real, en este caso, AkayaKanadaka */
-font-family: Akaya AkayaKanadaka-Regular;
-src: url('../Fonts/AkayaKanadaka-Regular.ttf')
+article {
+    text-align: center;
+    /* margin: 32px auto; */
+    /* width: 80%; */
 }
-@font-face {
-font-family: HarryPotter;
-src: url('../Fonts/HARRYP__.TTF')
-}
-@font-face {
-    font-family: Glory;
-    src: url('../Fonts/Glory-VariableFont_wght.ttf')
-    }
- @font-face {
-    font-family: GloryCursiva;
-    src: url('../Fonts/Glory-Italic-VariableFont_wght.ttf')
-    }
 
 table, th, td {
     border: 1px solid cornsilk;
@@ -89,13 +100,6 @@ th {
     color: black;
   }
 
-article {
-    text-align: center;
-    margin: 32px auto;
-    /* margin: 32px auto; */
-    width: 80%;
-    /* width: 80%; */
-}
 .column img {
     margin-top: 8px;
     vertical-align: middle;
@@ -182,4 +186,8 @@ form button {
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
+}
+b {
+    font-family: HarryPotter;
+    font-size: 50px;
 }
