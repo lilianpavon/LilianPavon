@@ -1,0 +1,45 @@
+@font-face {
+    font-family: lilian;
+    src: url('../Fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+body {
+    font-family: lilian;
+    background-color: white;
+}
+
+strong {
+    font-size: medium;
+}
+strong#title {
+    font-size: 28px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+    width: 100%;
+    align-items: center;
+    padding: 15px;
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor {
+    background-color:white;
+    border: 1px white;
+    width: 50%;
+    height: 1600px;
+    margin: 50px;
+    text-align: justify;
+}
+.row {
+    display: flex;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
