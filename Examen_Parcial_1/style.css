@@ -21,13 +21,15 @@ header {
     margin-right: auto;
 }
 main {
-    display: flex column;
+    display: flex;
+    flex-direction: column;
     width: 360px;
     margin-left: auto;
     margin-right: auto;
 }
 form {
-    display: flex column;
+    display: flex;
+    flex-direction: column;
 }
 h2 {
     font-size: 200;
