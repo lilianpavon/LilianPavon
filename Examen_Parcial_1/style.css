@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Bitso;
+    src: url('../Examen_Parcial_1/fonts/bitso-regular.woff2');
+}
+* {
+    font-family: Bitso;
+}
+header {
+    width: 1280px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+}
+#logo {
+    width: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+main {
+    display: flex column;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form {
+    display: flex column;
+}
+h2 {
+    font-size: 200;
+    margin-bottom: 32px;
+}
+input {
+    margin-bottom: 32px;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 9px;
+}
+a {
+    color: #29ac00;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: bold;
+}
+id#submit {
+    margin-top: 32px;
+    background-color: #29ac00;
+    color: white;
+    border: none;
+    border-radius: 32px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+id#reset {
+    margin-top: 32px;
+    background-color: transparent;
+    border: none;
+    color: #29ac00;
+    font-weight: bold;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%-640px;
+    display: flex;
+    margin: 16px;
+    font-size: 10px small;
+    width: 1280px;
+}
+footer {
+    flex: 1;
+}
